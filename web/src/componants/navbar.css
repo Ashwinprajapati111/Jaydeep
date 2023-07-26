@@ -4,3 +4,50 @@
 .insta{
     color: red;
 }
+.manu-link li{
+    list-style-type: none;  
+}
+.manu-link li a{
+    text-decoration: none;
+    color: #000000;
+}
+.social-desktop li{
+    list-style-type: none;  
+    text-decoration: none;
+}
+.main-nav{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+.manu-link ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    text-align: center;
+    align-items: center;
+    display: grid
+}
+/* .main-nav{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    grid-template-columns:15rem 26rem 116px 52px 70px; 
+}
+.logo{
+    text-align: center;
+    align-items: center;
+    display: grid
+}
+.manu-link{
+    grid-column: 3/4;
+}
+.manu-link ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */

@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
-      Welcome to Ashwin Prajapati
-    </div>
-  )
-}
+    <>
+      <div className="text">Welcome to</div>
+      <div className="text_main">Ashwin Prajapati</div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
